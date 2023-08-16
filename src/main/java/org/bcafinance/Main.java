@@ -2,6 +2,7 @@ package org.bcafinance;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        double hasil = 75 / 8;
+        System.out.println(hasil);
     }
 }
