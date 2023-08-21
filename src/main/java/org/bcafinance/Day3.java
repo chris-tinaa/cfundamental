@@ -16,7 +16,7 @@ public class Day3 {
         char[] chArr = words.toCharArray();
 
         for (int i = 0 ; i < chArr.length ; i++){
-            ascii = chArr[i];
+              ascii = chArr[i];
             if ((ascii >= 65 && ascii <= 90) || (ascii >= 97 && ascii <= 122)){
                 asciiSum += ascii;
             }
